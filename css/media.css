@@ -1,0 +1,5 @@
+@media(max-width: 1140px){
+    .grid__col-4{
+        grid-template-columns: 1fr 1fr;
+    }
+}

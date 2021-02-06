@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.grid__col-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container{
+    max-width: 1175px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.navbar{
+    padding-bottom: 9px;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin: 0 -22.5px;
+    font-weight: 500;
+}
+
+.navbar__link{
+    padding: 0 22.5px;
+}
+
+.header__basket{
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    padding-bottom: 9px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.header__basket p{
+    padding-left: 11px;
+}
+
+.hero{
+    padding-top: 192px;
+    padding-bottom: 80px;
+    height: 545px;
+    background-color: #eee;
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+}
+
+.hero__container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.hero__content{
+    max-width: 380px;
+}
+
+.hero__title{
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.hero__info{
+    line-height: 24px;
+    padding: 25px 0 38px;
+}
+
+.hero__btn{
+    width: 240px;
+    height: 50px;
+    background-color: #FB565A;
+    border-radius: 3px;
+    line-height: 18px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.about{
+    padding: 80px 0;
+}
+
+.about__grid{
+    grid-column-gap: 100px;
+}
+
+.card{
+    
+}
+
+.card__title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.card__info{
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+    padding: 16px 35px 32px 0;
+}
+
+.card__btn{
+    width: 160px;
+    height: 50px;
+    border-radius: 3px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.danger{
+    background-color: #FB565A;
+}
+
+.success{
+    background-color: #00CA74;
+}
+
+.warning{
+    background-color: #EFC849;
+}
+
+hr{
+    background-color: #EEEEEE;
+    margin-bottom: 18px;
+}
